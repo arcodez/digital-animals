@@ -1,17 +1,37 @@
 .navbar {
-  color: black;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 10px auto;
   min-height: 40px;
-  min-width: 100%;
-  background-color: var(--color-verde1);
+  width: 70%;
+  /* background-color: var(--color-verde1); */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5s ease;
 }
 
 .logo {
   margin: 10px;
+  text-transform: uppercase;
+  color: var(--color-verde1);
 }
 
 .options {
   margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option {
+  margin: 0 8px;
+  border-bottom: 2px solid var(--color-verde1);
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.option:hover {
+  color: var(--color-verde2);
 }

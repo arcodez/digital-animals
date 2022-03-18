@@ -14,12 +14,12 @@
 }
 
 body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-image: url(https://wallpaperaccess.com/full/452591.jpg);
   background-size: 100%;
   background-color: var(--color-gris);
   color: white;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .txt-center {
