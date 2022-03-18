@@ -1,13 +1,25 @@
-body {
+/* Agregando la paleta de colores */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-gris: #48575e;
+  --color-verde1: #b8cf69;
+  --color-verde2: #00d977;
+  --color-verde3: #2d4a1a;
+  --color-negro: #151c15;
+}
+
+body {
+  background-color: var(--color-gris);
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.txt-center {
+  text-align: center;
 }
