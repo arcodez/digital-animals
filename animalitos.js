@@ -16,7 +16,8 @@ export const animals = [
   {
     name: "Carnero",
     number: 1,
-    picture: "",
+    picture:
+      "https://static6.depositphotos.com/1126698/615/i/600/depositphotos_6152764-stock-photo-moufflon-portrait.jpg",
   },
   {
     name: "Toro",
@@ -33,7 +34,8 @@ export const animals = [
   {
     name: "Alacrán",
     number: 4,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2019/11/11/01/36/scorpion-4616974__340.jpg",
   },
   {
     name: "León",
@@ -116,12 +118,14 @@ export const animals = [
   {
     name: "Burro",
     number: 18,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2019/09/26/14/04/etretat-4506073__340.jpg",
   },
   {
     name: "Chivo",
     number: 19,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2019/08/04/04/43/goat-4383002__340.jpg",
   },
   {
     name: "Cochino",
@@ -138,7 +142,8 @@ export const animals = [
   {
     name: "Camello",
     number: 22,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2020/03/19/18/29/camel-4948299__340.jpg",
   },
   {
     name: "Zebra",
@@ -149,27 +154,31 @@ export const animals = [
   {
     name: "Iguana",
     number: 24,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2022/01/24/07/52/lizard-6962760__340.jpg",
   },
   {
     name: "Gallina",
     number: 25,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2020/02/15/04/19/chicken-4849979__340.jpg",
   },
   {
     name: "Vaca",
     number: 26,
-    picture: "",
+    picture:
+      "https://static.wikia.nocookie.net/jurassicpark/images/a/af/Vacas_beneficios_amigas_leche_salud_istockphoto.jpg/revision/latest?cb=20161205173709&path-prefix=es",
   },
   {
     name: "Perro",
     number: 27,
-    picture: "",
+    picture:
+      "https://images.ecestaticos.com/6uBjSmsBorRk6l_IHAxkBS1JCwE=/114x0:1997x1410/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F721%2F122%2F714%2F72112271431cb1078c3fe3e75ad5ab41.jpg",
   },
   {
     name: "Zamuro",
     number: 28,
-    picture: "",
+    picture: "https://venezuelaverde.com/wp-content/uploads/2015/08/zamuro.jpg",
   },
   {
     name: "Elefante",
@@ -180,17 +189,20 @@ export const animals = [
   {
     name: "Caiman",
     number: 30,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2021/09/17/10/55/caiman-lizard-6632344__480.jpg",
   },
   {
     name: "Lapa",
     number: 31,
-    picture: "",
+    picture:
+      "https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXXFa4S2VSJ2TM4bBXNLmxJaDq9WuHp8GHXuEFDY93M1j/image.png",
   },
   {
     name: "Ardilla",
     number: 32,
-    picture: "",
+    picture:
+      "https://static.wikia.nocookie.net/reinoanimalia/images/d/d4/Ardilla_roja.png/revision/latest/top-crop/width/360/height/450?cb=20140608052630&path-prefix=es",
   },
   {
     name: "Pescado",
@@ -201,7 +213,8 @@ export const animals = [
   {
     name: "Venado",
     number: 34,
-    picture: "",
+    picture:
+      "https://cdn.pixabay.com/photo/2019/12/13/18/06/deer-4693574__340.jpg",
   },
   {
     name: "Jirafa",
