@@ -14,6 +14,8 @@
 }
 
 body {
+  background-image: url(https://wallpaperaccess.com/full/452591.jpg);
+  background-size: 100%;
   background-color: var(--color-gris);
   color: white;
   min-height: 100vh;
