@@ -1,5 +1,5 @@
 .navbar {
-  color: white;
+  // color: white;
   font-size: 20px;
   text-transform: capitalize;
   margin: 10px auto;
@@ -16,6 +16,7 @@
   margin: 10px;
   text-transform: uppercase;
   color: var(--color-verde1);
+  border-bottom: 3px solid var(--color-verde2);
 }
 
 .options {
@@ -30,8 +31,16 @@
   border-bottom: 2px solid var(--color-verde1);
   cursor: pointer;
   transition: all 0.6s ease;
+  a:hover {
+    text-decoration: none;
+    color: var(--color-verde2);
+  }
 }
 
-.option:hover {
-  color: var(--color-verde2);
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.6s ease;
 }
