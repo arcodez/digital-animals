@@ -10,7 +10,7 @@ const ListOfAnimals = ({
     <div className="animals_cards">
       <h1 className="animals_list_title">{loteryName}</h1>
       <div className="animals_row">
-        {[1, 2, 3, 4, 5, 6, 7, 8].map((card, index) => (
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((card, index) => (
           <AnimalCard key={index} {...card} timeLotery={timeLoteryValue} />
         ))}
       </div>

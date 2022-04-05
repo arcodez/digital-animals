@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Header />
-      <ListOfAnimals />
+      <ListOfAnimals loteryName="Animalitos Digitales" />
     </Layout>
   );
 };

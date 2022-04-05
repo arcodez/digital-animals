@@ -14,7 +14,7 @@ const Header = () => {
         </p>
 
         <div className="button">
-          <button>Show Animals Table</button>
+          <button>Tabla de Animalitos</button>
         </div>
       </div>
 
