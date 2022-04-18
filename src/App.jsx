@@ -1,12 +1,19 @@
 import React from "react";
-import Index from "../pages";
-import Login from "../pages/login";
+import { Route, Routes } from "react-router-dom";
+import Index from "./pages";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Results from "./pages/results";
 
 const App = () => {
   return (
     <>
-      {/* <Index /> */}
-      <Login />
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/results" element={<Results />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
     </>
   );
 };

@@ -1,0 +1,41 @@
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+  h1 {
+    color: white;
+    border-bottom: 3px solid var(--color-verde1);
+    width: 65%;
+    margin: 5px auto;
+  }
+}
+
+.login-form {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 360px;
+  margin: 0 auto;
+  input {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+.form-group {
+  text-align: center;
+  h2 {
+    border-bottom: 3px solid green;
+    width: 30%;
+    text-transform: capitalize;
+    margin: 8px auto;
+  }
+}
+
+.form-button {
+  margin: 10px;
+  text-align: center;
+  width: 60%;
+  padding: 10px;
+}
