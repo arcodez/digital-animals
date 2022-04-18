@@ -1,0 +1,37 @@
+.results-page {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: large;
+  h1 {
+    color: white;
+    border-bottom: 3px solid var(--color-verde1);
+    width: 40%;
+    margin: 5px auto;
+  }
+}
+
+.results-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  //   background-color: red;
+  width: 90%;
+}
+
+.links-result-option {
+  margin: 0 auto;
+  background-color: var(--color-verde1);
+  margin-left: 50%;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  a:hover {
+    text-decoration: none;
+    color: var(--color-verde2);
+  }
+}
