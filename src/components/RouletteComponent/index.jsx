@@ -1,5 +1,5 @@
 import React from "react";
-import { rValue } from "../../src/helpers/ramdon";
+import { rValue } from "../../helpers/ramdon";
 
 const RouletteComponent = () => {
   let animal = rValue.name;
