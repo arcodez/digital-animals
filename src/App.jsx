@@ -2,6 +2,7 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Index from "./pages";
 import Login from "./pages/login";
+import Profile from "./pages/profile";
 import Register from "./pages/register";
 import Results from "./pages/results";
 import Stats from "./pages/stats";
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );
