@@ -1,7 +1,9 @@
 import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 import "./style.css";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className="header">
       <div className="texts">
@@ -14,7 +16,9 @@ const Header = () => {
         </p>
 
         <div className="button">
-          <button>Tabla de Animalitos</button>
+          <button onClick={() => navigate("/animal-table")}>
+            Tabla de Animalitos
+          </button>
         </div>
       </div>
 

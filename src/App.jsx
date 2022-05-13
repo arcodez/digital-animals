@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Index from "./pages";
+import AnimalTable from "./pages/animalTable";
 import Login from "./pages/login";
 import Profile from "./pages/profile";
 import Register from "./pages/register";
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/stats" element={<Stats />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/animal-table" element={<AnimalTable />} />
       </Routes>
     </>
   );
