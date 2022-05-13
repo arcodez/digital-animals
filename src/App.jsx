@@ -1,9 +1,21 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Index from "./pages";
 import Login from "./pages/login";
 import Register from "./pages/register";
 import Results from "./pages/results";
+import Stats from "./pages/stats";
+
+const Logout = () => {
+  return (
+    <div>
+      <h1>Thank You For Use This page</h1>
+      <Link to="/">
+        <a>Home</a>
+      </Link>
+    </div>
+  );
+};
 
 const App = () => {
   return (
@@ -13,6 +25,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/results" element={<Results />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/stats" element={<Stats />} />
+        <Route path="/logout" element={<Logout />} />
       </Routes>
     </>
   );
