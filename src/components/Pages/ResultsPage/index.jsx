@@ -3,6 +3,9 @@ import Layout from "../../Layout/Layout";
 import ListOfAnimals from "../../ListOfAnimals";
 import "./style.scss";
 
+const urlToFecthWeeks =
+  "https://www.tuazar.com/loteria/animalitos/resultados/2022/04/25/";
+
 const ResultsPage = () => {
   return (
     <Layout>
